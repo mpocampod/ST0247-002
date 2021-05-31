@@ -180,14 +180,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.85)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.85;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.7)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.7;
                 }
                 
@@ -195,7 +195,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q;
                 }
 
@@ -205,14 +205,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.6)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.6;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.7)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.7;
                 }
                 
@@ -220,7 +220,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.9)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.9;
                 }
 
@@ -230,14 +230,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.5)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.5;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.65)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.65;
                 }
                 
@@ -245,7 +245,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.8)/pendienteFuncionCarga[0];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[0];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[0];
                     bateriaRestante = Q*0.8;
                 }
 
@@ -278,14 +278,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.8)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.8;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.82)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.82;
                 }
                 
@@ -293,7 +293,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.95)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.95;
                 }
             }
@@ -302,14 +302,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.8)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.8;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.82)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.82;
                 }
                 
@@ -317,7 +317,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.87)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.87;
                 }
 
@@ -327,14 +327,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.8)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.8;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.82)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*0.82;
                 }
                 
@@ -342,7 +342,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.85)/pendienteFuncionCarga[1];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[1];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[1];
                     bateriaRestante = Q*85;
                 }
 
@@ -376,14 +376,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.89)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.89;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.8)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.8;
                 }
             
@@ -391,7 +391,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.85)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.4)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.85;
                 }
             }
@@ -400,14 +400,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.75)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.75;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*0.8)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.8;
                 }
                 
@@ -415,7 +415,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.85)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.25)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.85;
                 }
 
@@ -425,14 +425,14 @@ public class RuteoVehiculosElectricos {
                 if(tiempoRestante<=3)
                 {
                     tiempoDeCarga = (Q*0.72)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.72;
                 }
 
                 else if(tiempoRestante<=5)
                 {
                     tiempoDeCarga = (Q*8)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.8;
                 }
                 
@@ -440,7 +440,7 @@ public class RuteoVehiculosElectricos {
                 else if (tiempoRestante<=8)
                 {
                     tiempoDeCarga = (Q*0.82)/pendienteFuncionCarga[2];
-                    tiempoDeCarga = tiempoDeCarga - (Q*0.1)/pendienteFuncionCarga[2];
+                    tiempoDeCarga = tiempoDeCarga - (bateriaRestante)/pendienteFuncionCarga[2];
                     bateriaRestante = Q*0.82;
                 }
 
@@ -525,7 +525,7 @@ public class RuteoVehiculosElectricos {
     }
     public static void main(String[] args) {
         
-            RuteoVehiculosElectricos prueba1 = new RuteoVehiculosElectricos("DataSet1.txt");
+            RuteoVehiculosElectricos prueba1 = new RuteoVehiculosElectricos("DataSet2.txt");
             ArrayList<ArrayList<String>> resultado = prueba1.solucionar();
             String respuesta="[";
             for(ArrayList<String> Ruta: resultado)
